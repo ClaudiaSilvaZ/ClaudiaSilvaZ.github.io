@@ -1,56 +1,54 @@
 <!DOCTYPE html>
-<head>
-<!--this does not appear in the body of the page, it is for data-->
-<title> My Super-AwesomeFirst Website </title>
-</head>
-
-<!--always include this  -->
-<body>
-  <!-- h1 is header level 1 -->
-  <!-- indent things that are child of other things, when you indent you can hide lines -->
-  <h1>Hi! Welcome to my website!!!</h1>
-    <!-- p is for paragraphs -->
-    <p>Isn't it <strong>awesome</strong>?</p>
-    <!-- a is for adding links, remember to include the href -->
-    <p><a href="http://google.com">You can find anything on the internet</a></p>
-    <!-- You always have to include the p command, it is a convention/ -->
-
-    <p><img src="cat.jpg"></p>
-
-    <!--we dont use the http because the website is there -->
-    <p><a href="tacos.html"> Tacos!</a></p>
-    <p><a href="carnitas.html">Carnitas!</a></p>
-
-  <h2>This are the languages you will use to code:</h2>
-
-    <p><ul>
-      <li>Java Script</li>
-      <li>HTML</li>
-      <li>CSS</li></ul></P>
-
-  <h3>This is what you will need:</h3>
-
-    <p><ol>
-      <li>Pacience</li>
-      <li>Saving your work and refreshing</li>
-      <li><em>Coffee</em></li></ol></P>
-
-  <p> Now: <span> Totally different subject</span></p>
-      <p><table>
-      <tr>
-      <th>Category</th>
-      <th>Price</th>
-      <th>Number</th
-      </tr>
-      <tr>
-      <td>Clothing</td>
-      <td>$155</td>
-      <td>5</td>
-      <tr>
-      <td>Shoes</td>
-      <td>$100</td>
-      <td>3</td>
-      </tr>
-      </table></p>
-      </body>
-      </html>
+<html lang="en">
+ <head>
+ <title>Claudia's Kellogg Website</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+ <link rel="stylesheet" href="style.css">
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+ </head>
+ <body>
+ <!-- Your stuff goes here -->
+ <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #b6a0dc;">
+  <a class="navbar-brand" href="http://www.kellogg.northwestern.edu/"> <img src="kellogglogo.png" id="kellogglogo" </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Learn about My Purple Experience
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="books.html"> My Books List </a>
+          <a class="dropdown-item" href="trips.html">My Favorite Trips</a>
+      </li>
+    </ul>
+  </div>
+ </nav>
+ <!-- Jumbotron -->
+<div class="jumbotron">
+  <h1 class="display-4">Welcome to my Kellogg Experience!</h1>
+  <p class="lead">Coming to Kellogg is much more than getting an MBA degree. This is a ride I never want to forget!</p>
+  <hr class="my-4">
+  <p>Click on the Dropdown Menu above to check my favorite memories! </p>
+  <p class="lead">
+    <a class="btn btn-secondary btn-lg" href="https://www.linkedin.com/in/claudia-silva/" role="button">Connect with me on Linkedin</a>
+  </p>
+</div>
+ <!-- Grid -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col">
+      <img src="kellogghub.jpg" id="kellogghub"
+  </div>
+</div>
+ </body>
+</html>
